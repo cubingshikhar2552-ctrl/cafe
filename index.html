@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gulabi Tapri Cafe | Jaipur Rooftop & Chai House</title>
+  <meta name="description" content="Experience Jaipur's iconic rooftop chai culture inspired by Tapri Central. Enjoy handcrafted Handi Chai, Pesto Vada Pav, and gourmet fusion snacks at 50% celebration prices!" />
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Rozha+One&display=swap" rel="stylesheet" />
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Top Announcement Bar -->
+  <div class="announcement-bar">
+    <div class="announcement-content">
+      <span class="badge-fire"><i class="fa-solid fa-sparkles"></i> FESTIVE SPECIAL</span>
+      <span>Flat <strong>50% OFF</strong> on all menu items! Inspired by Jaipur's legendary Tapri Central.</span>
+      <a href="#menu" class="announcement-link">Order at Half Price &rarr;</a>
+    </div>
+  </div>
+
+  <!-- Navigation Header -->
+  <header class="header" id="header">
+    <div class="container nav-container">
+      <a href="#" class="brand-logo">
+        <div class="logo-mark">
+          <i class="fa-solid fa-mug-hot"></i>
+        </div>
+        <div class="logo-text">
+          <span class="brand-name">GULABI TAPRI</span>
+          <span class="brand-tagline">C-Scheme, Jaipur &bull; Rooftop Chai &amp; Cafe</span>
+        </div>
+      </a>
+
+      <nav class="nav-links" id="navLinks">
+        <a href="#about" class="nav-link">Our Story</a>
+        <a href="#menu" class="nav-link">Menu &bull; 50% Off</a>
+        <a href="#specials" class="nav-link">Jaipur Specials</a>
+        <a href="#ambiance" class="nav-link">Rooftop View</a>
+        <a href="#visit" class="nav-link">Visit Us</a>
+      </nav>
+
+      <div class="header-actions">
+        <button class="cart-btn" id="openCartBtn" aria-label="View Order Cart">
+          <i class="fa-solid fa-bag-shopping"></i>
+          <span class="cart-count" id="cartCount">0</span>
+          <span class="cart-total" id="cartHeaderTotal">₹0</span>
+        </button>
+        <a href="#table-reserve" class="btn-primary desktop-only">Book a Table</a>
+        <button class="mobile-toggle" id="mobileMenuBtn" aria-label="Toggle Navigation">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero-section" id="hero">
+    <div class="hero-overlay"></div>
+    <div class="container hero-container">
+      <div class="hero-badge">
+        <i class="fa-solid fa-heart"></i> Jaipur's Favorite Rooftop Chai Culture
+      </div>
+      <h1 class="hero-title">
+        Kulhad Chai, Skyline Views &amp; <span class="highlight-pink">Jaipur Delicacies</span>
+      </h1>
+      <p class="hero-subtitle">
+        Inspired by the warmth of <em>Tapri Central</em> overlooking Central Park. Sip authentic Handi Chai, feast on Pesto Vada Pav &amp; Khakhra Pizza — now at special <strong>half prices (50% OFF)</strong>.
+      </p>
+
+      <div class="hero-cta-group">
+        <a href="#menu" class="btn-primary btn-large">
+          <i class="fa-solid fa-utensils"></i> Explore 50% Off Menu
+        </a>
+        <a href="#visit" class="btn-outline btn-large">
+          <i class="fa-solid fa-location-dot"></i> Find Us in C-Scheme
+        </a>
+      </div>
+
+      <!-- Quick Highlights -->
+      <div class="hero-stats">
+        <div class="stat-card">
+          <i class="fa-solid fa-mug-saucer"></i>
+          <div>
+            <h4>100% Authentic</h4>
+            <p>Handi &amp; Kulhad Chai</p>
+          </div>
+        </div>
+        <div class="stat-card">
+          <i class="fa-solid fa-percent"></i>
+          <div>
+            <h4>Flat 50% Off</h4>
+            <p>Celebration Menu Pricing</p>
+          </div>
+        </div>
+        <div class="stat-card">
+          <i class="fa-solid fa-mountain-sun"></i>
+          <div>
+            <h4>Scenic Rooftop</h4>
+            <p>Overlooking Pink City</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About / Jaipur Connection Section -->
+  <section class="about-section" id="about">
+    <div class="container about-grid">
+      <div class="about-text-content">
+        <span class="section-subtitle">Heritage &amp; Ambiance</span>
+        <h2 class="section-title">Rooted in Jaipur's Soul, Crafted with Modern Flair</h2>
+        <p class="lead-text">
+          Anyone who has sat on a sunlit afternoon at Tapri Central knows that chai in Jaipur is not just a drink — it’s a slow-brewed conversation, a comforting ritual, and a community feeling.
+        </p>
+        <p>
+          At <strong>Gulabi Tapri</strong>, we bring that exact quintessential Jaipur cafe experience to life: the aroma of fresh ginger, cardamom, and lemongrass boiling in clay pots, accompanied by nostalgic snacks redefined with gourmet twists like basil pesto, melted mozzarella, and Ratlami sev.
+        </p>
+        
+        <div class="about-features">
+          <div class="feat-item">
+            <div class="feat-icon"><i class="fa-solid fa-seedling"></i></div>
+            <div>
+              <strong>Single-Origin Tea &amp; Coffee</strong>
+              <p>Fresh Assam orthodox tea leaves &amp; artisan beans from Coorg &amp; Araku Valley.</p>
+            </div>
+          </div>
+          <div class="feat-item">
+            <div class="feat-icon"><i class="fa-solid fa-leaf"></i></div>
+            <div>
+              <strong>Pure Veg &amp; Jain Options</strong>
+              <p>Hygienic open kitchen with customized Jain preparations for over 80% of our items.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="about-visual">
+        <div class="visual-card primary-card">
+          <div class="visual-badge">The Jaipur Special</div>
+          <div class="visual-inner">
+            <i class="fa-solid fa-fire-burner big-icon"></i>
+            <h3>Handi Chai &bull; ₹80</h3>
+            <span class="original-price-strike">Original ₹160</span>
+            <p>Simmered slowly in unglazed terracotta handi with fresh herbs &amp; rich cow milk.</p>
+          </div>
+        </div>
+        <div class="visual-card secondary-card">
+          <h4>Voted Best Sunset Spot</h4>
+          <p><i class="fa-solid fa-star star-filled"></i> 4.9/5 from 2,800+ Chai Lovers</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Menu Section with Search & Filtering -->
+  <section class="menu-section" id="menu">
+    <div class="container">
+      <div class="section-header text-center">
+        <span class="section-subtitle">Jaipur Favorites &bull; Half Price Celebration</span>
+        <h2 class="section-title">The Gulabi Tapri Menu</h2>
+        <p class="section-description">
+          All prices are slashed to <strong>50% OFF</strong> compared to standard Jaipur cafe tariffs. Every dish is freshly prepared to order.
+        </p>
+      </div>
+
+      <!-- Search & Dietary Bar -->
+      <div class="menu-controls">
+        <div class="search-box">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <input type="text" id="menuSearchInput" placeholder="Search chai, vadapav, maggi, pasta, shakes..." />
+          <button id="clearSearchBtn" class="clear-btn" style="display:none;"><i class="fa-solid fa-xmark"></i></button>
+        </div>
+
+        <div class="dietary-filter">
+          <button class="diet-btn active" data-diet="all">All Items</button>
+          <button class="diet-btn" data-diet="veg"><i class="fa-solid fa-leaf"></i> Pure Veg</button>
+          <button class="diet-btn" data-diet="jain"><i class="fa-solid fa-spa"></i> Jain Available</button>
+          <button class="diet-btn" data-diet="bestseller"><i class="fa-solid fa-fire"></i> Bestsellers</button>
+        </div>
+      </div>
+
+      <!-- Category Tabs -->
+      <div class="category-tabs" id="categoryTabs">
+        <button class="cat-tab active" data-category="all">All (24)</button>
+        <button class="cat-tab" data-category="chai">Handi Chai &amp; Brews</button>
+        <button class="cat-tab" data-category="nashta">Jaipur Nashta &amp; Bites</button>
+        <button class="cat-tab" data-category="mains">Mains &amp; Fusion</button>
+        <button class="cat-tab" data-category="coolers">Coolers &amp; Cold Brews</button>
+        <button class="cat-tab" data-category="desserts">Sweet Endings</button>
+      </div>
+
+      <!-- Menu Items Grid -->
+      <div class="menu-grid" id="menuGrid">
+        <!-- Rendered dynamically by app.js -->
+      </div>
+
+      <!-- Empty State -->
+      <div class="empty-state" id="emptyState" style="display: none;">
+        <i class="fa-solid fa-cookie-bite"></i>
+        <h3>No matching delicacies found</h3>
+        <p>Try searching for "chai", "vada pav", "cheese" or clear your filters.</p>
+        <button class="btn-outline" id="resetFiltersBtn">Reset Filters</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Jaipur Specials Banner -->
+  <section class="specials-section" id="specials">
+    <div class="container">
+      <div class="specials-card">
+        <div class="specials-content">
+          <span class="special-tag"><i class="fa-solid fa-crown"></i> Tapri Heritage Combo</span>
+          <h2>The "Shaam Ki Chai" Jaipur Platter</h2>
+          <p>
+            Double Handi Masala Chai + 2 Pesto Vada Pavs + Cheesy Corn Jalapeño Shots + Ratlami Bun Maska.
+          </p>
+          <div class="price-showcase">
+            <span class="slashed-price">₹560</span>
+            <span class="grand-price">₹280 <small>only</small></span>
+            <span class="savings-tag">Save ₹280 today</span>
+          </div>
+          <button class="btn-primary btn-large" onclick="quickAddCombo()">
+            <i class="fa-solid fa-plus"></i> Add Combo to Order
+          </button>
+        </div>
+        <div class="specials-art">
+          <div class="steaming-cup">
+            <i class="fa-solid fa-mug-hot"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Rooftop Ambiance & Gallery -->
+  <section class="ambiance-section" id="ambiance">
+    <div class="container">
+      <div class="section-header text-center">
+        <span class="section-subtitle">The Pink City Vibe</span>
+        <h2 class="section-title">Evenings at Gulabi Tapri</h2>
+        <p class="section-description">A cozy corner filled with books, warm fairy lights, hand-painted murals, and Jaipur's breezy evenings.</p>
+      </div>
+
+      <div class="ambiance-grid">
+        <div class="ambiance-box">
+          <div class="ambiance-icon-wrapper"><i class="fa-solid fa-sun"></i></div>
+          <h3>Golden Hour Rooftop</h3>
+          <p>Watch the sunset paint the Jaipur sky in shades of saffron and lilac while sipping freshly brewed lemongrass tea.</p>
+        </div>
+        <div class="ambiance-box">
+          <div class="ambiance-icon-wrapper"><i class="fa-solid fa-book-open-reader"></i></div>
+          <h3>Board Games &amp; Book Nook</h3>
+          <p>Over 100+ novels, magazines, Carrom boards, and Scrabble sets for your leisurely afternoon hangouts.</p>
+        </div>
+        <div class="ambiance-box">
+          <div class="ambiance-icon-wrapper"><i class="fa-solid fa-guitar"></i></div>
+          <h3>Live Acoustic Weekends</h3>
+          <p>Unplugged Sufi, indie folk, and acoustic jam sessions every Friday &amp; Saturday 7:00 PM onwards.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Customer Reviews -->
+  <section class="reviews-section">
+    <div class="container">
+      <div class="section-header text-center">
+        <span class="section-subtitle">Love from Jaipur &amp; Travelers</span>
+        <h2 class="section-title">What Guests Are Saying</h2>
+      </div>
+
+      <div class="reviews-grid">
+        <div class="review-card">
+          <div class="stars">
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+          </div>
+          <p class="review-text">
+            "Reminds me so much of Tapri Central's golden days! The Pesto Vada Pav is absolutely heavenly and at ₹110 it’s practically a steal. Best chai spot in C-Scheme!"
+          </p>
+          <div class="reviewer-meta">
+            <strong>Ananya Sharma</strong>
+            <span>Jaipur Local &bull; Food Blogger</span>
+          </div>
+        </div>
+
+        <div class="review-card">
+          <div class="stars">
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+          </div>
+          <p class="review-text">
+            "The Statue Circle style cold coffee and Khakhra pizza are unbelievable. Half-price celebration made our family outing super affordable and delightful."
+          </p>
+          <div class="reviewer-meta">
+            <strong>Rohit Mathur</strong>
+            <span>Mansarovar, Jaipur</span>
+          </div>
+        </div>
+
+        <div class="review-card">
+          <div class="stars">
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+          </div>
+          <p class="review-text">
+            "Visiting from Delhi. The rooftop views, the unglazed clay Handi Chai, and the hospitality represent authentic Rajasthani warmth. Must visit when in Jaipur!"
+          </p>
+          <div class="reviewer-meta">
+            <strong>Pooja &amp; Kabir</strong>
+            <span>Travelers</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Location & Table Reservation Section -->
+  <section class="visit-section" id="visit">
+    <div class="container visit-grid">
+      <!-- Info Column -->
+      <div class="visit-info">
+        <span class="section-subtitle">Find Your Way</span>
+        <h2 class="section-title">Visit Us in C-Scheme</h2>
+        <p>Located right in the cultural heart of Jaipur, minutes away from Statue Circle, Central Park, and MI Road.</p>
+
+        <div class="info-list">
+          <div class="info-item">
+            <i class="fa-solid fa-map-location-dot"></i>
+            <div>
+              <strong>Address</strong>
+              <p>Plot No. B-42, Rooftop, Subhash Marg, C-Scheme, Jaipur, Rajasthan 302001</p>
+            </div>
+          </div>
+          <div class="info-item">
+            <i class="fa-solid fa-clock"></i>
+            <div>
+              <strong>Timings</strong>
+              <p>Open Daily: 7:30 AM &ndash; 11:00 PM (Breakfast, High Tea &amp; Rooftop Dinners)</p>
+            </div>
+          </div>
+          <div class="info-item">
+            <i class="fa-solid fa-phone"></i>
+            <div>
+              <strong>Phone &amp; WhatsApp</strong>
+              <p>+91 98290 12345 / +91 141 2367890</p>
+            </div>
+          </div>
+          <div class="info-item">
+            <i class="fa-solid fa-square-parking"></i>
+            <div>
+              <strong>Amenities</strong>
+              <p>Free High-Speed Wi-Fi &bull; Valet Parking Available &bull; Pet Friendly Rooftop</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Table Reservation Form -->
+      <div class="reserve-card" id="table-reserve">
+        <h3><i class="fa-solid fa-calendar-check"></i> Reserve a Table</h3>
+        <p>Reserve your rooftop spot during sunset or evening acoustic sessions.</p>
+        <form id="reservationForm" onsubmit="handleReservation(event)">
+          <div class="form-group">
+            <label for="resName">Full Name</label>
+            <input type="text" id="resName" required placeholder="e.g. Vikramaditya Singh" />
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="resPhone">Phone Number</label>
+              <input type="tel" id="resPhone" required placeholder="98290XXXXX" />
+            </div>
+            <div class="form-group">
+              <label for="resGuests">Guests</label>
+              <select id="resGuests">
+                <option value="2">2 Guests</option>
+                <option value="3-4">3 - 4 Guests</option>
+                <option value="5-8">5 - 8 Guests</option>
+                <option value="8+">8+ Large Gathering</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="resDate">Date</label>
+              <input type="date" id="resDate" required />
+            </div>
+            <div class="form-group">
+              <label for="resTime">Preferred Slot</label>
+              <select id="resTime">
+                <option value="morning">Morning Brew (8 AM - 11 AM)</option>
+                <option value="sunset">Sunset Chai (4:30 PM - 7 PM)</option>
+                <option value="dinner">Starlit Dinner (7:30 PM - 10:30 PM)</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="resNotes">Special Requests (Optional)</label>
+            <input type="text" id="resNotes" placeholder="Rooftop corner, Jain snacks, birthday cake..." />
+          </div>
+          <button type="submit" class="btn-primary btn-block">Confirm Reservation</button>
+        </form>
+        <div id="resSuccessMsg" class="alert-success" style="display:none;">
+          <i class="fa-solid fa-circle-check"></i> Table requested! We will WhatsApp you confirmation within 15 minutes.
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <div class="brand-logo footer-logo">
+          <div class="logo-mark"><i class="fa-solid fa-mug-hot"></i></div>
+          <span class="brand-name">GULABI TAPRI</span>
+        </div>
+        <p>Jaipur's authentic tea culture, artisan coffee, and beloved fusion nashta celebrating the Pink City spirit.</p>
+        <div class="social-icons">
+          <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
+          <a href="#" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+          <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+      </div>
+
+      <div class="footer-links">
+        <h4>Menu Highlights</h4>
+        <ul>
+          <li><a href="#menu">Tapri Handi Chai</a></li>
+          <li><a href="#menu">Pesto Vada Pav</a></li>
+          <li><a href="#menu">Khakhra Pizza</a></li>
+          <li><a href="#menu">Statue Circle Cold Coffee</a></li>
+          <li><a href="#menu">Dal Pakwan Platter</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-links">
+        <h4>Experience</h4>
+        <ul>
+          <li><a href="#about">Our Story</a></li>
+          <li><a href="#ambiance">Rooftop Ambiance</a></li>
+          <li><a href="#visit">Table Reservation</a></li>
+          <li><a href="#visit">Private Events &amp; Parties</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Jaipur Coordinates</h4>
+        <p><i class="fa-solid fa-location-dot"></i> Subhash Marg, C-Scheme, Jaipur</p>
+        <p><i class="fa-solid fa-phone"></i> +91 98290 12345</p>
+        <p><i class="fa-solid fa-envelope"></i> khamma-ghani@gulabitapri.com</p>
+        <p class="github-pill">
+          <i class="fa-brands fa-github"></i> 100% Ready for GitHub Pages
+        </p>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container bottom-flex">
+        <p>&copy; <span id="yearSpan"></span> Gulabi Tapri Cafe. Inspired by Jaipur's Tapri Central. Prices displayed are 50% celebration rates.</p>
+        <p>Made with <i class="fa-solid fa-heart heart-beat"></i> for Chai &amp; Jaipur lovers.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Slide-out Cart Drawer -->
+  <div class="cart-backdrop" id="cartBackdrop"></div>
+  <aside class="cart-drawer" id="cartDrawer" aria-label="Shopping Cart">
+    <div class="cart-drawer-header">
+      <div class="drawer-title-group">
+        <h3><i class="fa-solid fa-bag-shopping"></i> Your Order Tray</h3>
+        <span class="badge-saving">50% OFF Applied</span>
+      </div>
+      <button class="close-drawer-btn" id="closeCartBtn" aria-label="Close Tray">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+    </div>
+
+    <div class="cart-drawer-body" id="cartItemsList">
+      <!-- Items dynamically populated -->
+    </div>
+
+    <div class="cart-drawer-footer" id="cartFooter">
+      <div class="bill-row">
+        <span>Standard Jaipur Price</span>
+        <span class="strike-text" id="billOriginalPrice">₹0</span>
+      </div>
+      <div class="bill-row saving-row">
+        <span>Your 50% Jaipur Savings</span>
+        <span class="saving-text" id="billSavings">-₹0</span>
+      </div>
+      <div class="bill-divider"></div>
+      <div class="bill-row total-row">
+        <strong>Total Payable Amount</strong>
+        <strong class="total-text" id="billFinalTotal">₹0</strong>
+      </div>
+
+      <div class="cart-actions">
+        <button class="btn-primary btn-block whatsapp-btn" onclick="sendOrderViaWhatsApp()">
+          <i class="fa-brands fa-whatsapp"></i> Order via WhatsApp
+        </button>
+        <button class="btn-outline btn-block" onclick="clearCart()">
+          <i class="fa-solid fa-trash-can"></i> Clear Tray
+        </button>
+      </div>
+    </div>
+  </aside>
+
+  <!-- Floating Mobile Cart Pill -->
+  <div class="mobile-cart-float" id="mobileCartFloat">
+    <button onclick="toggleCart()" class="mobile-cart-action">
+      <div class="m-cart-left">
+        <span class="m-count" id="mCartCount">0</span>
+        <span>View Tray</span>
+      </div>
+      <div class="m-cart-right">
+        <span id="mCartTotal">₹0</span> &rarr;
+      </div>
+    </button>
+  </div>
+
+  <!-- Toast Notification -->
+  <div class="toast-notification" id="toastNotification">
+    <i class="fa-solid fa-circle-check"></i>
+    <span id="toastMsg">Added to tray!</span>
+  </div>
+
+  <!-- Scripts -->
+  <script src="app.js"></script>
+</body>
+</html>
